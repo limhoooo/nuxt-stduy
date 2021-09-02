@@ -2,13 +2,19 @@
   {
     "name": "main",
     "path": "/main",
-    "component": "C:\\\\study\\\\learn-nuxt\\\\pages\\\\main.vue",
+    "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\main.vue",
     "chunkName": "pages/main"
+  },
+  {
+    "name": "product",
+    "path": "/product",
+    "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\product.vue",
+    "chunkName": "pages/product"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\study\\\\learn-nuxt\\\\pages\\\\index.vue",
+    "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\index.vue",
     "chunkName": "pages/index"
   }
 ]
