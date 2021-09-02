@@ -1,13 +1,34 @@
 <template>
   <div>
       <h1>메인 페이지</h1>
-      <p>넉스트 시작하기</p>
+      <div>
+        {{ products }}
+
+
+
+        
+      </div>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
 export default {
+async asyncData(){
+  const response = await axios.get('http://localhost:3000/products');
+    const products = response.data;
+    return { products };
+},
+// data() {
+//   return {
+//     products: [],
+//   }
+// },
 
+  // async created(){
+  //   const response = await axios.get('http://localhost:3000/products');
+  //   this.products = response.data
+  // }
 }
 </script>
 
