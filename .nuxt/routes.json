@@ -3,18 +3,21 @@
     "name": "main",
     "path": "/main",
     "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\main.vue",
-    "chunkName": "pages/main"
+    "chunkName": "pages/main",
+    "_name": "_0ffc797f"
   },
   {
     "name": "product",
     "path": "/product",
     "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\product.vue",
-    "chunkName": "pages/product"
+    "chunkName": "pages/product",
+    "_name": "_43652399"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_5df0db08"
   }
 ]
