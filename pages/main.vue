@@ -18,6 +18,8 @@ async asyncData(){
   const response = await axios.get('http://localhost:3000/products');
     const products = response.data;
     return { products };
+
+    
 },
 // data() {
 //   return {
