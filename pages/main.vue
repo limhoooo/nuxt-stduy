@@ -1,17 +1,16 @@
 <template>
   <div>
-      <h1>메인 페이지</h1>
-      <ProductList></ProductList>
+    <h1>메인 페이지</h1>
+    <ProductList></ProductList>
   </div>
 </template>
 
 <script>
-import ProductList from '../components/ProductList.vue';
+import ProductList from '../components/ProductList.vue'
 export default {
   components: { ProductList },
 }
 </script>
 
 <style>
-
 </style>

@@ -2,22 +2,22 @@
   {
     "name": "main",
     "path": "/main",
-    "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\main.vue",
+    "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\main.vue",
     "chunkName": "pages/main",
-    "_name": "_0ffc797f"
+    "_name": "_8fd7508a"
   },
   {
     "name": "product",
     "path": "/product",
-    "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\product.vue",
+    "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\product.vue",
     "chunkName": "pages/product",
-    "_name": "_43652399"
+    "_name": "_74f3cbdd"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\study\\\\nuxt-stduy\\\\nuxt-stduy\\\\pages\\\\index.vue",
+    "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_5df0db08"
+    "_name": "_2beb7bc0"
   }
 ]
