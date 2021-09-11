@@ -1,17 +1,17 @@
 [
   {
-    "name": "main",
-    "path": "/main",
-    "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\main.vue",
-    "chunkName": "pages/main",
-    "_name": "_8fd7508a"
-  },
-  {
     "name": "product",
     "path": "/product",
     "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\product.vue",
     "chunkName": "pages/product",
     "_name": "_74f3cbdd"
+  },
+  {
+    "name": "detail-id",
+    "path": "/detail/:id?",
+    "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\detail\\\\_id.vue",
+    "chunkName": "pages/detail/_id",
+    "_name": "_69f5ef77"
   },
   {
     "name": "index",
