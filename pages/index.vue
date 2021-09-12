@@ -1,9 +1,7 @@
 <template>
   <div class="app">
     <main>
-      <div>
-        <input type="text" />
-      </div>
+      <SearchInput v-model="searchKeyword"></SearchInput>
       <ul>
         <li
           class="item flex"
@@ -26,7 +24,8 @@
 
 <script>
 import axios from 'axios'
-// import ProductList from '../components/ProductList.vue'
+import SearchInput from '../components/SearchInput.vue'
+
 export default {
   async asyncData() {
     const response = await axios.get('http://localhost:3000/products')
@@ -38,17 +37,23 @@ export default {
     })
     return { products }
   },
+  components: {
+    SearchInput,
+  },
   methods: {
     moveToDetailPage(id) {
       console.log(id)
       this.$router.push(`detail/${id}`)
     },
+    updateSearchKeyword(keyword) {
+      this.searchKeyword = keyword
+    },
   },
-  // data() {
-  //   return {
-  //     products: [],
-  //   }
-  // },
+  data() {
+    return {
+      searchKeyword: '',
+    }
+  },
 }
 </script>
 

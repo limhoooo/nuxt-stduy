@@ -1,5 +1,6 @@
 export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
 export { default as ProductList } from '../..\\components\\ProductList.vue'
+export { default as SearchInput } from '../..\\components\\SearchInput.vue'
 export { default as Tutorial } from '../..\\components\\Tutorial.vue'
 
 // nuxt/nuxt.js#8607

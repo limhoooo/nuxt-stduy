@@ -5,6 +5,9 @@
   "ProductList": {
     "description": "Auto imported from components/ProductList.vue"
   },
+  "SearchInput": {
+    "description": "Auto imported from components/SearchInput.vue"
+  },
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   }
