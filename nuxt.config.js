@@ -45,5 +45,11 @@ export default {
   // server setup
   server: {
     port: process.env.NODE_ENV === 'production' ? null : 5000,
+  },
+
+  // env config
+  env: {
+    baseUrl: process.env.NODE_ENV === 'production' ?
+      'https://my-json-server.typicode.com/limhoooo/nuxt-study-api' : 'http://localhost:3000'
   }
 }
