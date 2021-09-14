@@ -1,4 +1,7 @@
 {
+  "CartList": {
+    "description": "Auto imported from components/CartList.vue"
+  },
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
   },

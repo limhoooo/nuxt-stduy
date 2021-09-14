@@ -18,16 +18,16 @@
 </template>
 
 <script>
-import { fetchProductById } from '../../api/index'
+import { createCartItem, fetchProductById } from '../../api'
 export default {
   async asyncData({ params }) {
     const response = await fetchProductById(params.id)
-    const product = response.data
-    return { product }
+    return { product: response.data }
   },
   methods: {
-    addToCart() {
-      this.$store.commit('addCartItem', this.product)
+    async addToCart() {
+      await createCartItem(this.product)
+      this.$store.commit('addItemToCart', this.product)
       this.$router.push('/cart')
     },
   },

@@ -1,3 +1,4 @@
+export { default as CartList } from '../..\\components\\CartList.vue'
 export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
 export { default as ProductList } from '../..\\components\\ProductList.vue'
 export { default as SearchInput } from '../..\\components\\SearchInput.vue'
