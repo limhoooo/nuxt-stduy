@@ -29,13 +29,13 @@
 </template>
 
 <script>
-import axios from 'axios'
 import SearchInput from '../components/SearchInput.vue'
 import { fetchProductByKeyword } from '../api/index'
 
 export default {
   async asyncData() {
-    const response = await axios.get('http://localhost:3000/products')
+    console.log(process.env.baseURL)
+    const response = await fetchProductByKeyword()
     const products = response.data.map((item) => {
       return {
         ...item,
@@ -71,6 +71,7 @@ export default {
   data() {
     return {
       searchKeyword: '',
+      products: [],
     }
   },
 }

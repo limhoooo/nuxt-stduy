@@ -1,29 +1,28 @@
+const isProduction = process.env.NODE_ENV === 'production'
+
 export default {
+  // Target: https://go.nuxtjs.dev/config-target
+  // target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'learn-nuxt',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@/assets/css/reset.css'
-  ],
+  css: ['@/assets/css/reset.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -35,21 +34,20 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+  modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  },
+  build: {},
 
-  // server setup
+  // server
   server: {
-    port: process.env.NODE_ENV === 'production' ? null : 5000,
+    port: isProduction ? null : 5000,
   },
 
-  // env config
+  // env
   env: {
-    baseUrl: process.env.NODE_ENV === 'production' ?
-      'https://my-json-server.typicode.com/limhoooo/nuxt-study-api' : 'http://localhost:3000'
-  }
+    baseURL: isProduction
+      ? 'https://my-json-server.typicode.com/limhoooo/nuxt-study-api'
+      : 'http://localhost:3000',
+  },
 }
