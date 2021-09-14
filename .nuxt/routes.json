@@ -3,28 +3,24 @@
     "name": "cart",
     "path": "/cart",
     "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\cart.vue",
-    "chunkName": "pages/cart",
-    "_name": "_8e0e7cbc"
+    "chunkName": "pages/cart"
   },
   {
     "name": "product",
     "path": "/product",
     "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\product.vue",
-    "chunkName": "pages/product",
-    "_name": "_74f3cbdd"
+    "chunkName": "pages/product"
   },
   {
     "name": "detail-id",
     "path": "/detail/:id?",
     "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\detail\\\\_id.vue",
-    "chunkName": "pages/detail/_id",
-    "_name": "_69f5ef77"
+    "chunkName": "pages/detail/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\project\\\\study\\\\nuxt-stduy\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2beb7bc0"
+    "chunkName": "pages/index"
   }
 ]
