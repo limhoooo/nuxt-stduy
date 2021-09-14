@@ -1,7 +1,9 @@
 # learn-nuxt
 
-## Build Setup
+```배포
+https://dashboard.heroku.com/apps/nuxt-shopping-app-ho/deploy/github
 
+## Build Setup
 ```bash
 # install dependencies
 $ npm install
