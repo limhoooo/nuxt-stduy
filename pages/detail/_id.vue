@@ -31,21 +31,17 @@ export default {
       this.$router.push('/cart')
     },
   },
-  head: {
-    title: '디테일페이지 ㅋ',
-    htmlAttrs: {
-      lang: 'en',
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: '임호 nuxt 테스트 crud 페이지 ㅋ',
-      },
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  head() {
+    return {
+      title: '디테일페이지 ㅋ',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: `이 상품은 ${this.product.name}`,
+        },
+      ],
+    }
   },
 }
 </script>
