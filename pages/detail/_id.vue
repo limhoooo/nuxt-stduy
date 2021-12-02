@@ -33,7 +33,7 @@ export default {
   },
   head() {
     return {
-      title: '디테일페이지 ㅋ',
+      title: '디테일페이지',
       meta: [
         {
           hid: 'description',
